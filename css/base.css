@@ -1,0 +1,52 @@
+*,
+::before,
+::after {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*统一设置文字,sans-serif移动端默认字体*/
+    font-family: '微软雅黑',sans-serif;
+}
+
+input {
+    -webkit-appearance: none;
+    border: 0;
+}
+a {
+    text-decoration: none;
+}
+ol,ul {
+    list-style: none;
+}
+.f_l {
+    float: left;
+}
+.f_r {
+    float: right;
+}
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: block;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.b_l {
+    border-left: 1px solid #eee;
+}
+.b_r {
+    border-right: 1px solid #eee;
+}
+.b_t {
+    border-top: 1px solid #eee;
+}
+.b_b {
+    border-bottom: 1px solid #eee;
+}
